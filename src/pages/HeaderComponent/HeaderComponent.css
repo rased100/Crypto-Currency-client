@@ -4,7 +4,10 @@
 .headerComponent{
     margin-left: 145px;
     margin-right: 145px;
-
+}
+.headerMargin{
+    margin-top: 73px;
+    margin-bottom: 133px;
 }
 .inputCoin{
     height: 50px;
@@ -12,8 +15,8 @@
     z-index: 1;
 }
 .inputBtn{
-    position: relative;
-    left: -100px;
+    /* position: relative;
+    left: -100px; */
     height: 42px;
     margin-top: 4px;
     background-color: #3359DE;
@@ -23,4 +26,32 @@
     padding-left: 20px;
     padding-right: 20px;
     z-index: 2;
+}
+
+/* buy BTC */
+.btcBg{
+    /* position: relative;
+    top: 48px; */
+    background-color: #3359DE;
+    color: white;
+}
+.bColor{
+    color: white;
+}
+.inputMargin{
+    margin-left: 16px;
+    margin-right: 20px;
+}
+.inputUSD{
+    height: 81px;
+    width: 462px;
+    margin-left: 16px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+.usdBtcButton{
+    color: #3359DE;
+    background-color: white;
+    margin-top: 48px;
+    margin-right: 20px;
 }
