@@ -1,0 +1,43 @@
+.navContainer{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 22px;
+    margin-bottom: 23px;
+}
+.logo{
+    width: 192px;
+    height: 50px;
+}
+.logoImage{
+width: 50px;
+}
+.textLogo{
+    margin-left: 5px;
+}
+.navItems{
+    list-style-type: none;
+    margin-left: 36px;
+}
+.navItem{
+    margin-left: 36px;
+    font-weight: 700;
+}
+.navItemHome{
+    font-weight: 700; 
+}
+.dBtn{
+    color: white;
+    margin-left: 43px;
+    background-color: #3359DE;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+.sBtn{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;   
+}
+.textBtn{
+    padding: 15px;
+}
