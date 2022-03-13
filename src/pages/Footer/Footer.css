@@ -20,29 +20,31 @@
     background-color: #2C4FCA;
 }
 .footerIcon img{
-    height: 73px;
-    width: 113px;
-     color: white;
+    /* height: 73px; */
+    height: 50%;
+    /* width: 113px; */
+    width: 50%;
+    color: white;
 }
 .footerContuctUs{
     color: white;
     font-family: DM Sans;
-font-size: 22px;
-font-style: normal;
-font-weight: 700;
-line-height: 29px;
-letter-spacing: 0em;
-text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
 
 }
 .aboutUs h4{
     color: white;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 18px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
 .aboutText{
