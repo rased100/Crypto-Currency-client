@@ -1,0 +1,52 @@
+.topgainerContainer{
+    width: 80%;
+    margin-top: 66px;
+}
+.cText{
+    font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: -0.015em;
+text-align: left;
+}
+.cTitle{
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+.dolar{
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 34px;
+letter-spacing: -0.015em;
+text-align: left;
+}
+.percent{
+    color: #40BF79;
+    font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: -0.015em;
+text-align: right;
+}
+.cLogo{
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 21px;
+text-align: right;
+
+}
+.cBody{
+    border-radius: 10px;
+}
