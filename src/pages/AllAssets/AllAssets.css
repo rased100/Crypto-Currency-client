@@ -34,3 +34,64 @@ text-align: center;
 .buttons{
     margin-top: 62px;
 }
+
+/* Data List */
+.liBtn{
+    border: none;
+    background-color: #40BF79;
+    font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
+padding-left: 20px;
+padding-right: 20px;
+
+
+}
+.dataList{
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    box-shadow: 0 0 15px 1px rgb(230, 227, 227);
+}
+
+.dataList ul{
+display: flex;
+list-style-type: none;
+}
+.li1{
+background-color: white;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+color: #016FD0;
+text-align: left;
+height: 70px;
+
+}
+.li2{
+    background-color: #F9F7F7;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 70px;
+     
+}
+.li3{
+    background-color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 70px;
+}
