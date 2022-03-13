@@ -10,6 +10,7 @@
     font-size: 13px;
     line-height: 17px;
     color: #FFFFFF;
+    padding: 20px;
 }
 .fTopSection{
     height: 287px;
@@ -17,4 +18,36 @@
 }
 .fBottomSection{
     background-color: #2C4FCA;
+}
+.footerIcon img{
+    height: 73px;
+    width: 113px;
+     color: white;
+}
+.footerContuctUs{
+    color: white;
+    font-family: DM Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.aboutUs h4{
+    color: white;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.aboutText{
+    margin-right: 50px;
+}
+.buysellText{
+    margin-left: 50px;
 }

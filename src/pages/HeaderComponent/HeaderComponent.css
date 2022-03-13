@@ -30,8 +30,8 @@
 
 /* buy BTC */
 .btcBg{
-    /* position: relative;
-    top: 48px; */
+    position: relative;
+    top: 48px;
     background-color: #3359DE;
     color: white;
 }
