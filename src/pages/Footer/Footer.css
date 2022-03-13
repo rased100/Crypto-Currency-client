@@ -1,0 +1,20 @@
+.fContainer{
+    /* height: 344px; */
+    background-color: #3359DE;
+}
+.fEnd{
+    
+}
+.fEnd h4{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.fTopSection{
+    height: 287px;
+    background-color: #3359DE;
+}
+.fBottomSection{
+    background-color: #2C4FCA;
+}

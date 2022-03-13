@@ -1,0 +1,28 @@
+.regContainer{
+    height: 148px;
+    width: 766px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.regBg{
+    background-color: #E5E5E6;
+}
+.inputReg{
+    height: 49px;
+    width: 477px;
+    z-index: 1;
+}
+.regBtn{
+    /* position: relative;
+    left: -100px; */
+    height: 42px;
+    width: 119px;
+    margin-top: 4px;
+    background-color: #3C3C3B;
+    color: white;
+    /* border-radius: 20px; */
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 2;
+}
