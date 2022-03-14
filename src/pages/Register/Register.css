@@ -12,11 +12,17 @@
     width: 477px;
     z-index: 1;
 }
+.regStyle{
+    display: flex;
+}
 @media screen and (max-width: 750px) {
     .inputReg{
         height: 50px;
         width: 100%;
         z-index: 1;
+    }
+    .regStyle{
+        display: grid;
     }
   }
 .regBtn{

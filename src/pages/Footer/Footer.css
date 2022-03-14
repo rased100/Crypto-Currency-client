@@ -15,7 +15,17 @@
 .fTopSection{
     height: 287px;
     background-color: #3359DE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+@media screen and (max-width: 750px) {
+    .fTopSection{
+        display: grid;
+    }
+  }
+
 .fBottomSection{
     background-color: #2C4FCA;
 }

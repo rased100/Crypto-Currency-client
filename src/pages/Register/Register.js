@@ -9,7 +9,7 @@ const Register = () => {
                 <div>
                     <h4>Register and start trading</h4>
                     <p>Start trading in just 2 minutes</p>
-                    <div className='d-flex'>
+                    <div className='regStyle'>
                         <InputGroup className="inputReg">
                             <FormControl
                                 placeholder="Search Coin"

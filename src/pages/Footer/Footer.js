@@ -5,7 +5,7 @@ import cryptupLogo from '../../data/image/footerLogo.png';
 const Footer = () => {
     return (
         <div className='fContainer'>
-            <div className='d-flex justify-content-around align-items-center fTopSection'>
+            <div className='fTopSection'>
                 <div className='footerIcon'>
                     <img src={cryptupLogo} alt="" />
                 </div>

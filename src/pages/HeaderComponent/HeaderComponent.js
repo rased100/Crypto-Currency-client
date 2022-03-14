@@ -11,7 +11,7 @@ const HeaderComponent = () => {
                         <h2>Pricing</h2>
                     </div>
                     <div className='headerMargin'>
-                        <div className='d-flex'>
+                        <div className='inputStyle'>
                             <InputGroup className="inputCoin">
                                 <FormControl
                                     placeholder="Search Coin"
@@ -19,7 +19,7 @@ const HeaderComponent = () => {
                                     aria-describedby="basic-addon2"
                                 />
                             </InputGroup>
-                            <Button className='inputBtn' variant="outline-secondary" id="button-addon2">
+                            <Button className=''>
                                 Search
                             </Button>
                         </div>
