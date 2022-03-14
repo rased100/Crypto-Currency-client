@@ -4,7 +4,7 @@ import './HeaderComponent.css';
 
 const HeaderComponent = () => {
     return (
-        <div className='headerComBg'>
+        <div className='headerComBg d-flex justify-content-center'>
             <div className='headerComponent'>
                 <div className='d-flex align-items-center justify-content-between'>
                     <div className='headerMargin'>

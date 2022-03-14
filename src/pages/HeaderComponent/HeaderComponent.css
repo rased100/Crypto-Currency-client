@@ -2,18 +2,29 @@
     background-color: #C4C4C4;
 }
 .headerComponent{
-    margin-left: 145px;
-    margin-right: 145px;
+    /* margin-left: 145px;
+    margin-right: 145px; */
+    width: 80%;
 }
 .headerMargin{
     margin-top: 73px;
     margin-bottom: 133px;
 }
 .inputCoin{
+    margin-left: 20px;
     height: 50px;
     width: 407px;
     z-index: 1;
 }
+
+@media screen and (max-width: 750px) {
+    .inputCoin{
+        height: 50px;
+        width: 100%;
+        z-index: 1;
+    }
+  }
+
 .inputBtn{
     /* position: relative;
     left: -100px; */

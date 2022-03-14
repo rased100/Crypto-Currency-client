@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import cryptupLogo from '../../data/image/fbg.png';
+import cryptupLogo from '../../data/image/footerLogo.png';
 
 const Footer = () => {
     return (
