@@ -8,3 +8,11 @@ color: white;
 .text2{
     color: rgb(192, 190, 190); 
 }
+
+
+@media screen and (max-width: 750px) {
+    .bgColor{
+        height: 100%;
+    }
+    
+  }
