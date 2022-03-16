@@ -1,7 +1,32 @@
-import React from 'react';
+import axios from 'axios';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import './Topgainer.css';
+import { setProducts } from '../redux/actions/productsActions'
 
 const Topgainer = () => {
+    const products = useSelector((state) => state.allProducts.products);
+    // const { title } = products[0];
+    const dispatch = useDispatch();
+
+    const fatchProducts = async () => {
+        const response = await axios
+            .get("http://localhost:5000/jsonData")
+            .catch((err) => {
+                console.log('error', err);
+            });
+        dispatch(setProducts(response.data));
+    };
+
+    useEffect(() => {
+        fatchProducts();
+    }, []);
+    console.log('products:', products)
+
+
+
+
+
     return (
         <div className='d-flex justify-content-center'>
             <div className='topgainerContainer'>
@@ -13,6 +38,7 @@ const Topgainer = () => {
                                 <div className='d-flex justify-content-between'>
                                     <div>
                                         <p className='cTitle'>Gods Unchained</p>
+                                        {/* <p className='cTitle'>{title}</p> */}
                                         <p className='dolar'>$551.22</p>
                                     </div>
                                     <div>
