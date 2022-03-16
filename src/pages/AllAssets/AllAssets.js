@@ -1,8 +1,12 @@
 import React from 'react';
 import { Button, Dropdown, DropdownButton, Table } from 'react-bootstrap';
+import { useSelector } from 'react-redux';
+import AllAssetsSingle from '../AllAssetsSingle/AllAssetsSingle';
 import './AllAssets.css';
 
 const AllAssets = () => {
+    const products = useSelector((state) => state.allProducts.products);
+    // console.log('allasset products', products)
     return (
         <div className='d-flex justify-content-center'>
             <div className='assetsContainer'>
@@ -38,30 +42,11 @@ const AllAssets = () => {
                                     <td>MARKET CAP</td>
                                     <td>TRADE</td>
                                 </tr>
-                                <tr className='li2'>
-                                    <td>BTC Bitcoin</td>
-                                    <td>$56917.14</td>
-                                    <td>-16.27%</td>
-                                    <td>(icon)</td>
-                                    <td>$6.27</td>
-                                    <td><Button className='liBtn' >Buy</Button></td>
-                                </tr>
-                                <tr className='li3'>
-                                    <td>ETH Ethereum</td>
-                                    <td>$680,175.06</td>
-                                    <td>-12.27%</td>
-                                    <td>(icon)</td>
-                                    <td>$2.27</td>
-                                    <td><Button className='liBtn' >Buy</Button></td>
-                                </tr>
-                                <tr className='li2'>
-                                    <td>LTC Litecoin</td>
-                                    <td>$680,175.06</td>
-                                    <td>-2.27%</td>
-                                    <td>(icon)</td>
-                                    <td>$1.27</td>
-                                    <td><Button className='liBtn' >Buy</Button></td>
-                                </tr>
+
+                                {
+                                    products.slice(0, 3).map(product => <AllAssetsSingle key={product.id} product={product}></AllAssetsSingle>)
+                                }
+
                             </tbody>
                         </Table>
                     </div>
