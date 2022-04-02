@@ -1,14 +1,19 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import './MarketStatus.css';
+import MarketStatusSingle from './MarketStatusSingle/MarketStatusSingle';
 
 const MarketStatus = () => {
+    const products = useSelector((state) => state.allProducts.products);
     return (
-        <div className='d-flex justify-content-center'>
-            <div className='marketContainer'>
-                <h2>In the past 24 hours <span className='mdColor'>Market is down</span> <span className='pColor'>1.14%</span></h2>
-            </div>
+        <div>
+            {
+                products.slice(0, 1).map(product => <MarketStatusSingle key={product.id} product={product}></MarketStatusSingle>)
+            }
         </div>
     );
 };
 
 export default MarketStatus;
+
+
