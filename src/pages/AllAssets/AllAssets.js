@@ -38,7 +38,7 @@ const AllAssets = () => {
                                     <td>NAME</td>
                                     <td>PRICE</td>
                                     <td>CHANGE</td>
-                                    <td>PRICE CHART</td>
+                                    <td>VOLUME</td>
                                     <td>MARKET CAP</td>
                                     <td>TRADE</td>
                                 </tr>

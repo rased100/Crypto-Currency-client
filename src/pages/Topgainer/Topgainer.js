@@ -22,7 +22,7 @@ const Topgainer = () => {
     useEffect(() => {
         fatchProducts();
     }, []);
-    console.log('products:', products)
+    console.log('products 2:', products)
 
     return (
         <div className='d-flex justify-content-center'>
@@ -38,3 +38,5 @@ const Topgainer = () => {
 };
 
 export default Topgainer;
+
+
