@@ -12,7 +12,7 @@ const Topgainer = () => {
 
     const fatchProducts = async () => {
         const response = await axios
-            .get("http://localhost:5000/jsonData")
+            .get("https://secret-waters-57592.herokuapp.com/jsonData")
             .catch((err) => {
                 console.log('error', err);
             });
