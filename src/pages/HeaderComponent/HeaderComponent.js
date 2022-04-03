@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Dropdown, DropdownButton, Form, FormControl, InputGroup } from 'react-bootstrap';
+import { Button, Form, FormControl, InputGroup } from 'react-bootstrap';
 import './HeaderComponent.css';
 
 const HeaderComponent = () => {
@@ -32,41 +32,16 @@ const HeaderComponent = () => {
                     <div className="inputUSD text-start">
                         <Form.Label className='text-start' htmlFor="basic-url">For</Form.Label>
                         <InputGroup className="mb-3">
-                            <FormControl
-                                placeholder="500"
-                                aria-label="Recipient's username"
-                                aria-describedby="basic-addon2"
-                            />
-                            <DropdownButton
-                                variant="outline-secondary"
-                                title="| USD"
-                                id="input-group-dropdown-2"
-                                align="end"
-                            >
-                                <Dropdown.Item href="#">USD</Dropdown.Item>
-                                <Dropdown.Item href="#">BTC</Dropdown.Item>
-                            </DropdownButton>
+                            <input className='input1' placeholder=' 500' type="text" />
+                            <Button className='input1btn'>| USD</Button>
                         </InputGroup>
 
                     </div>
                     <div className="inputUSD text-start">
                         <Form.Label className='text-start' htmlFor="basic-url">You Get</Form.Label>
                         <InputGroup className="mb-3">
-                            <FormControl
-                                placeholder="0.000869675"
-                                aria-label="Recipient's username"
-                                aria-describedby="basic-addon2"
-                            />
-                            <DropdownButton
-
-                                variant="outline-secondary"
-                                title="| BTC"
-                                id="input-group-dropdown-2"
-                                align="end"
-                            >
-                                <Dropdown.Item className='bColor' href="#">USD</Dropdown.Item>
-                                <Dropdown.Item href="#">BTC</Dropdown.Item>
-                            </DropdownButton>
+                            <input className='input1' placeholder=' 0.000869675' type="text" />
+                            <Button className='input1btn'>| BTC</Button>
                         </InputGroup>
 
                     </div>

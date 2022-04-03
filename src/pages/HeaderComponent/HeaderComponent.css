@@ -86,3 +86,20 @@
     margin-top: 48px;
     margin-right: 20px;
 }
+
+.input1 {
+    width: 80%;
+    color: white;
+    background-color: #3359DE;
+    border: 1px solid rgba(255, 255, 255, 0.619);
+    border-radius: 5px;
+}
+
+.input1::placeholder {
+    color: white;
+}
+
+.input1btn {
+    background-color: #3359DE;
+    border: 1px solid rgba(255, 255, 255, 0.619);
+}
