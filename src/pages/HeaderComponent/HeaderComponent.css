@@ -1,43 +1,49 @@
-.headerComBg{
+.headerComBg {
     background-color: #C4C4C4;
 }
-.headerComponent{
+
+.headerComponent {
     /* margin-left: 145px;
     margin-right: 145px; */
     width: 80%;
 }
-.headerMargin{
+
+.headerMargin {
     margin-top: 73px;
     margin-bottom: 133px;
 }
-.inputCoin{
+
+.inputCoin {
     height: 50px;
     width: 407px;
     z-index: 1;
 }
-.inputStyle{
+
+.inputStyle {
     display: flex;
 }
 
 @media screen and (max-width: 750px) {
-    .inputCoin{
+    .inputCoin {
         margin-left: 20px;
         height: 50px;
         width: 120%;
         padding-right: 45px;
         z-index: 1;
     }
-    .inputStyle{
+
+    .inputStyle {
         display: grid;
     }
-    .inputStyle Button{
-       width: 50%;
-       margin-left: 20px;
+
+    .inputStyle Button {
+        width: 50%;
+        margin-left: 20px;
     }
-    
-  }
-  
-.inputStyle Button{
+
+}
+
+.inputStyle Button {
     /* height: 42px; */
     margin-top: 4px;
     background-color: #3359DE;
@@ -50,27 +56,31 @@
 }
 
 /* buy BTC */
-.btcBg{
+.btcBg {
     position: relative;
     top: 48px;
     background-color: #3359DE;
     color: white;
 }
-.bColor{
-    color: white;
+
+.bColor {
+    color: black;
 }
-.inputMargin{
+
+.inputMargin {
     margin-left: 16px;
     margin-right: 20px;
 }
-.inputUSD{
+
+.inputUSD {
     height: 81px;
     width: 462px;
     margin-left: 16px;
     margin-top: 17px;
     margin-bottom: 17px;
 }
-.usdBtcButton{
+
+.usdBtcButton {
     color: #3359DE;
     background-color: white;
     margin-top: 48px;

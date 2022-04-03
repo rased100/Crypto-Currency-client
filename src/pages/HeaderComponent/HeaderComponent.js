@@ -31,7 +31,7 @@ const HeaderComponent = () => {
                 <div className='btcBg d-flex justify-content-between'>
                     <div className="inputUSD text-start">
                         <Form.Label className='text-start' htmlFor="basic-url">For</Form.Label>
-                        <InputGroup className="">
+                        <InputGroup className="mb-3">
                             <FormControl
                                 placeholder="500"
                                 aria-label="Recipient's username"
