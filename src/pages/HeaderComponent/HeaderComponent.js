@@ -33,7 +33,7 @@ const HeaderComponent = () => {
                         <Form.Label className='text-start' htmlFor="basic-url">For</Form.Label>
                         <InputGroup className="mb-3">
                             <input className='input1' placeholder=' 500' type="text" />
-                            <Button className='input1btn'>| USD</Button>
+                            <Button className='input1btn'> USD</Button>
                         </InputGroup>
 
                     </div>
@@ -41,12 +41,12 @@ const HeaderComponent = () => {
                         <Form.Label className='text-start' htmlFor="basic-url">You Get</Form.Label>
                         <InputGroup className="mb-3">
                             <input className='input1' placeholder=' 0.000869675' type="text" />
-                            <Button className='input1btn'>| BTC</Button>
+                            <Button className='input1btn'> BTC</Button>
                         </InputGroup>
 
                     </div>
                     <div>
-                        <Button className='usdBtcButton' variant="outline-secondary" id="button-addon2">
+                        <Button className='usdBtcButton'>
                             Buy BTC
                         </Button>
                     </div>
