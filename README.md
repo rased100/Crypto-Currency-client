@@ -15,7 +15,8 @@ Client-Site-Code: https://github.com/rased100/Cryptup-react-node-redux-client
 
 Server-Site-Code: https://github.com/rased100/Cryptup-react-node-redux-server
 
-Used Technologies: React JS, Redux, Coinmarketcap Api Authentication, Node JS, and Bootstrap.
+### Used Technologies: 
+**React JS, Redux, Coinmarketcap Api Authentication, Node JS, and Bootstrap.**
 
 ## Developer
 [Md Rasedul Islam](https://github.com/rased100/)
