@@ -1,4 +1,4 @@
-# Cryptup-react-node-redux-client
+# Crypto Currency
 
 live-site: https://cryptup-react-node-redux.web.app
 
