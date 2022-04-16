@@ -6,7 +6,7 @@
 
     •	Crypto currency data get from coinmarketcap.com by API and Redux.
     
-[live-site-link](https://cryptup-react-node-redux.web.app) [Client-Site-Code](https://github.com/rased100/Cryptup-react-node-redux-client) [Server-Site-Code](https://github.com/rased100/Cryptup-react-node-redux-server) [Api-link](https://coinmarketcap.com/)
+[live-site-link](https://cryptup-react-node-redux.web.app) || [Client-Site-Code](https://github.com/rased100/Cryptup-react-node-redux-client) || [Server-Site-Code](https://github.com/rased100/Cryptup-react-node-redux-server) || [Api-link](https://coinmarketcap.com/)
 
 ### Used Technologies: 
 **React JS, Redux, Coinmarketcap Api Authentication, Node JS, and Bootstrap.**
