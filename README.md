@@ -1,5 +1,5 @@
 # Crypto Currency
-# About this website
+## About this website
 •	User can see all Crypto currency updated price and all other information.
 
 •	All Crypto currency information update every 10 minutes in this site.
@@ -17,6 +17,6 @@ Server-Site-Code: https://github.com/rased100/Cryptup-react-node-redux-server
 
 Used Technologies: React JS, Redux, Coinmarketcap Api Authentication, Node JS, and Bootstrap.
 
-# Developer
+## Developer
 [Md Rasedul Islam](https://github.com/rased100/)
     
