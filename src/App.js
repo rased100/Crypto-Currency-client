@@ -1,20 +1,19 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import AllAssets from './pages/AllAssets/AllAssets';
-import Footer from './pages/Footer/Footer';
-import Header from './pages/Header/Header';
-import MarketStatus from './pages/MarketStatus/MarketStatus';
-import Register from './pages/Register/Register';
-import Topgainer from './pages/Topgainer/Topgainer';
+import Home from './pages/Home/Home';
+import Navigation from './pages/Navigation/Navigation';
+import Prices from './pages/Prices/Prices';
+import TopBar from './pages/TopBar/TopBar';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <MarketStatus></MarketStatus>
-      <Topgainer></Topgainer>
-      <AllAssets></AllAssets>
-      <Register></Register>
-      <Footer></Footer>
+      <TopBar></TopBar>
+      <Navigation></Navigation>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="prices" element={<Prices />} />
+      </Routes>
     </div>
   );
 }

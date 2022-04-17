@@ -2,6 +2,7 @@ import React from 'react';
 import './Navigation.css';
 import cryptupLogo from '../../data/image/navLogo.png';
 import { Button, NavLink } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
     return (
@@ -18,10 +19,10 @@ const Navigation = () => {
                         <div className="collapse navbar-collapse" id="navbarCollapse">
                             <div>
                                 <div className="navbar-nav d-flex navItems">
-                                    <NavLink className='navItem'>Home</NavLink>
-                                    <NavLink className='navItem'>Prices</NavLink>
-                                    <NavLink className='navItem'>Portfolio</NavLink>
-                                    <NavLink className='navItem'>Company</NavLink>
+                                    <Link className='navItems' to="/">Home</Link>
+                                    <Link className='navItems' to="/prices">Prices</Link>
+                                    <Link className='navItems' to="/">Portfolio</Link>
+                                    <Link className='navItems' to="/">Company</Link>
                                 </div>
                             </div>
                             <div className="navbar-nav ms-auto">
